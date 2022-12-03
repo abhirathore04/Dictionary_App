@@ -5,7 +5,7 @@
 
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/varisha-025/Dictionary_App/pulls)
 
-[Demo Link](https://varisha-025.github.io/Dictionary_App/)
+[Demo Link](https://abhirathore04.github.io/Dictionary_App/)
 
 - This is a dictionary website using dictionary API which fetches the definition of the word entered along with its pronuniciation in the form an audio.
 - It also gives suggestions of words when there's a spelling error in your word.
