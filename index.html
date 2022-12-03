@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiktionary | Find any word</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <h2 class="mx-3">Wiktionary</h2>
+            </a>
+            <!-- <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <a href="#"><h4>Contact Us</h4></a>
+            
+          </button>
+
+        </div>
+    </nav>
+
+    <section class="my-5 container ">
+        <h2>Find any English Word that exist in the world :)</h2>
+        <div class="d-flex flex-column align-items-center justify-content-center" id="dictDiv">
+            <div class="input__wrap">
+                <input type="text" placeholder="Enter an English word" id="input">
+            </div>
+            <button id="search">SEARCH</button>
+        </div>
+    </section>
+    <section class="data container">
+        <h3 id="our">Our definition is:</h3>
+        <div class="didYouMean my-2"></div>
+        <div class="not_found"></div>
+        <span class="loading">Loading...</span>
+        <p class="def">
+        </p>
+        <div class="audioBox">
+        </div>
+    </section>
+
+    <section class="container my-3 d-flex flex-column align-items-center justify-content-center">
+        <div>
+            <h3 class="my-2" id="suggest_h3">Did you mean ?</h3>
+            
+        </div>
+        <div id="suggest_box">
+            <div class="container"></div>
+        </div>
+    </section>
+
+    <section class="container my-3 d-flex flex-column align-items-center justify-content-center" >
+        <div id="day" class="d-flex flex-column align-items-center justify-content-center">
+        <h2 style="font-weight: bold;">Learn the word of the day!</h2>
+        
+        <button id="word" ><span style="color: black;">LEARN</span></button>
+        <span id="display"></span>
+
+        <!-- <div class="card-box" class="div2">
+           <div class="content-card">
+               <div class="container d-flex flex-column align-items-center justify-content-center">
+                   <div class="my-3"><h3>Word of the day : </h3><span class="date"></span></div>
+                    <span id="display"></span>
+               </div>
+           </div> 
+        </div> -->
+        
+    </div>
+    </section>
+
+   
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
